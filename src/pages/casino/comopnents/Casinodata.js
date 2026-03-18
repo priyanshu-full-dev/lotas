@@ -1,0 +1,132 @@
+// ── Sub-categories per main category ─────────────────────────────────────────
+export const SUB_CATEGORIES = {
+    "ALL": [
+        { label: "ALL", img: "/public/games/icons/all.png" },
+        { label: "BACCARAT", img: "/public/games/icons/baccarat.png" },
+        { label: "MINES", img: "/public/games/icons/mines.png" },
+        { label: "SLOTS", img: "/public/games/icons/slots.png" },
+        { label: "AVIATOR", img: "/public/games/icons/aviator.png" },
+        { label: "OTHERS", img: "/public/games/icons/others.png" },
+        { label: "ROULETTE", img: "/public/games/icons/roulette.png" },
+        { label: "LUCKY7", img: "/public/games/icons/lucky7.png" },
+        { label: "BACCARAT", img: "/public/games/icons/baccarat.png" },
+        { label: "MINES", img: "/public/games/icons/mines.png" },
+        { label: "SLOTS", img: "/public/games/icons/slots.png" },
+        { label: "AVIATOR", img: "/public/games/icons/aviator.png" },
+        { label: "OTHERS", img: "/public/games/icons/others.png" },
+        { label: "ROULETTE", img: "/public/games/icons/roulette.png" },
+        { label: "LUCKY7", img: "/public/games/icons/lucky7.png" },
+
+    ],
+    "RECENT": [
+        { label: "ALL", img: "/public/games/icons/all.png" },
+        { label: "BACCARAT", img: "/public/casino-icons/baccarat.png" },
+        { label: "MINES", img: "/public/casino-icons/mines.png" },
+        { label: "AVIATOR", img: "/public/casino-icons/aviator.png" },
+        { label: "ROULETTE", img: "/public/casino-icons/roulette.png" },
+    ],
+    "MAC88 LIVE": [
+        { label: "ALL", img: "/public/games/icons/all.png" },
+        { label: "DRAGON TIGER", img: "/public/casino-icons/dragon-tiger.png" },
+        { label: "BACCARAT", img: "/public/casino-icons/baccarat.png" },
+        { label: "TEENPATTI", img: "/public/casino-icons/teenpatti.png" },
+        { label: "ANDARBAHAR", img: "/public/casino-icons/andarbahar.png" },
+        { label: "ROULETTE", img: "/public/casino-icons/roulette.png" },
+        { label: "LUCKY7", img: "/public/casino-icons/lucky7.png" },
+        { label: "32CARDS", img: "/public/casino-icons/32cards.png" },
+        { label: "SICBO", img: "/public/casino-icons/sicbo.png" },
+    ],
+    "MAC88 LIVE PREDICTION": [
+        { label: "ALL", img: "/public/games/icons/all.png" },
+        { label: "CRICKET", img: "/public/casino-icons/cricket.png" },
+        { label: "OTHERS", img: "/public/casino-icons/others.png" },
+    ],
+    "MAC88 FUN GAMES": [
+        { label: "ALL", img: "/public/games/icons/all.png" },
+        { label: "POKER", img: "/public/casino-icons/poker.png" },
+        { label: "SLOTS", img: "/public/casino-icons/slots.png" },
+        { label: "OTHERS", img: "/public/casino-icons/others.png" },
+    ],
+    "MAC88 VIRTUALS": [
+        { label: "ALL", img: "/public/games/icons/all.png" },
+        { label: "MARBLE RUN", img: "/public/casino-icons/marble-run.png" },
+        { label: "OTHERS", img: "/public/casino-icons/others.png" },
+    ],
+    "LIGHTNING": [
+        { label: "ALL", img: "/public/games/icons/all.png" },
+        { label: "DICE", img: "/public/casino-icons/dice.png" },
+        { label: "OTHERS", img: "/public/casino-icons/others.png" },
+    ],
+    "MACSEXY": [
+        { label: "ALL", img: "/public/games/icons/all.png" },
+        { label: "BACCARAT", img: "/public/casino-icons/baccarat.png" },
+        { label: "DRAGON TIGER", img: "/public/casino-icons/dragon-tiger.png" },
+        { label: "TEENPATTI", img: "/public/casino-icons/teenpatti.png" },
+    ],
+    "COLOR AND CHANCE": [
+        { label: "ALL", img: "/public/games/icons/all.png" },
+        { label: "LOTTERY", img: "/public/casino-icons/lottery.png" },
+        { label: "OTHERS", img: "/public/casino-icons/others.png" },
+    ],
+    "INSTANT GAMES": [
+        { label: "ALL", img: "/public/games/icons/all.png" },
+        { label: "MINES", img: "/public/casino-icons/mines.png" },
+        { label: "AVIATOR", img: "/public/casino-icons/aviator.png" },
+        { label: "CRASH", img: "/public/casino-icons/crash.png" },
+        { label: "OTHERS", img: "/public/casino-icons/others.png" },
+    ],
+    "CARD GAMES": [
+        { label: "ALL", img: "/public/games/icons/all.png" },
+        { label: "BACCARAT", img: "/public/casino-icons/baccarat.png" },
+        { label: "POKER", img: "/public/casino-icons/poker.png" },
+        { label: "32CARDS", img: "/public/casino-icons/32cards.png" },
+    ],
+    "TABLE GAMES": [
+        { label: "ALL", img: "/public/games/icons/all.png" },
+        { label: "ROULETTE", img: "/public/casino-icons/roulette.png" },
+        { label: "SICBO", img: "/public/casino-icons/sicbo.png" },
+        { label: "OTHERS", img: "/public/casino-icons/others.png" },
+    ],
+    "SLOTS": [
+        { label: "ALL", img: "/public/games/icons/all.png" },
+        { label: "SLOTS", img: "/public/casino-icons/slots.png" },
+        { label: "SLOT", img: "/public/casino-icons/slot.png" },
+    ],
+    "CRASH GAMES": [
+        { label: "ALL", img: "/public/games/icons/all.png" },
+        { label: "AVIATOR", img: "/public/casino-icons/aviator.png" },
+        { label: "CRASH", img: "/public/casino-icons/crash.png" },
+        { label: "MINES", img: "/public/casino-icons/mines.png" },
+    ],
+};
+
+// ── All games — add subCategory matching labels above ─────────────────────────
+export const ALL_GAMES = [
+    { id: 1, name: "Baccarat", category: "MAC88 LIVE", subCategory: "BACCARAT", img: "/public/casino/baccarat.png" },
+    { id: 2, name: "Lightning Baccarat", category: "LIGHTNING", subCategory: "BACCARAT", img: "/public/casino/lightning-baccarat.png" },
+    { id: 3, name: "Mines", category: "INSTANT GAMES", subCategory: "MINES", img: "/public/casino/baccarat.png" },
+    { id: 4, name: "Fortune Gems", category: "SLOTS", subCategory: "SLOTS", img: "/public/casino/baccarat.png" },
+    { id: 5, name: "777 Triple Sevens", category: "SLOTS", subCategory: "SLOTS", img: "/public/casino/lightning-baccarat.png" },
+    { id: 6, name: "Diamond Flash ", category: "SLOTS", subCategory: "SLOTS", img: "/public/casino/baccarat.png" },
+    { id: 7, name: "Dragon Tiger", category: "MAC88 LIVE", subCategory: "DRAGON TIGER", img: "/public/casino/lightning-baccarat.png" },
+    { id: 8, name: "Teen Patti", category: "MAC88 LIVE", subCategory: "TEENPATTI", img: "/public/casino/lightning-baccarat.png" },
+    { id: 9, name: "Andar Bahar", category: "MAC88 LIVE", subCategory: "ANDARBAHAR", img: "/public/casino/lightning-baccarat.png" },
+    { id: 10, name: "Roulette", category: "TABLE GAMES", subCategory: "ROULETTE", img: "/public/casino/lightning-baccarat.png" },
+    { id: 11, name: "Aviator", category: "CRASH GAMES", subCategory: "AVIATOR", img: "/public/casino/lightning-baccarat.png" },
+    { id: 12, name: "Marble Run", category: "MAC88 VIRTUALS", subCategory: "MARBLE RUN", img: "/public/casino/lightning-baccarat.png" },
+    { id: 13, name: "Sexy Baccarat", category: "MACSEXY", subCategory: "BACCARAT", img: "/public/casino/lightning-baccarat.png" },
+    // { id: 14, name: "Color Prediction", category: "COLOR AND CHANCE", subCategory: "LOTTERY", img: "/public/games/casino/color-prediction.jpg" },
+    // { id: 15, name: "Sic Bo", category: "TABLE GAMES", subCategory: "SICBO", img: "/public/games/casino/sic-bo.jpg" },
+    // { id: 16, name: "Live Prediction", category: "MAC88 LIVE PREDICTION", subCategory: "CRICKET", img: "/public/games/casino/live-prediction.jpg" },
+    // { id: 17, name: "Fun Blackjack", category: "MAC88 FUN GAMES", subCategory: "POKER", img: "/public/games/casino/blackjack.jpg" },
+    // { id: 18, name: "Lucky 7", category: "MAC88 LIVE", subCategory: "LUCKY7", img: "/public/games/casino/lucky7.jpg" },
+    // { id: 19, name: "Crash", category: "CRASH GAMES", subCategory: "CRASH", img: "/public/games/casino/crash.jpg" },
+    // { id: 20, name: "32 Cards", category: "CARD GAMES", subCategory: "32CARDS", img: "/public/games/casino/32cards.jpg" },
+];
+
+export const CASINO_CATEGORIES = [
+    "ALL", "RECENT", "MAC88 LIVE", "MAC88 LIVE PREDICTION",
+    "MAC88 FUN GAMES", "MAC88 VIRTUALS", "LIGHTNING", "MACSEXY",
+    "COLOR AND CHANCE", "INSTANT GAMES", "CARD GAMES",
+    "TABLE GAMES", "SLOTS", "CRASH GAMES",
+];
