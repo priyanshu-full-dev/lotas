@@ -1,6 +1,6 @@
 import { memo, useState, useEffect } from "react";
 import { FaHome, FaChevronRight, FaChevronLeft } from "react-icons/fa";
-import { SIDEBAR_BTNS } from "./sbData";
+import { SIDEBAR_BTNS } from "./Sbdata";
 
 const SBMobileNav = memo(({ open, onClose, onOpen, activeView, onViewChange }) => {
     const [headerH, setHeaderH] = useState(60);

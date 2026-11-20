@@ -1,5 +1,5 @@
 import { memo, useState, useEffect, useRef, useCallback } from "react";
-import { BANNERS } from "./sbData";
+import { BANNERS } from "./Sbdata";
 
 // Clone list: [...BANNERS, BANNERS[0]] so last→first wraps seamlessly
 const SLIDES = [...BANNERS, BANNERS[0]];

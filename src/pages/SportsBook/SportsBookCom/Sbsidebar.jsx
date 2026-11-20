@@ -1,6 +1,6 @@
 import { memo } from "react";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
-import { SIDEBAR_BTNS, SPORTS } from "./sbData";
+import { SIDEBAR_BTNS, SPORTS } from "./Sbdata";
 
 const COLLAPSED_ORDER = ["Live", "Events", "My Bets", "Search"];
 

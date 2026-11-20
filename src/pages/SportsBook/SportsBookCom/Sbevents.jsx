@@ -1,6 +1,6 @@
 import { memo, useState, useRef, useEffect } from "react";
 import { FaChevronUp, FaChevronDown } from "react-icons/fa";
-import { LIVE_EVENTS as LIVE_EVENTS_DATA, VIRTUAL_EVENTS as VIRTUAL_EVENTS_DATA } from "./sbData";
+import { LIVE_EVENTS as LIVE_EVENTS_DATA, VIRTUAL_EVENTS as VIRTUAL_EVENTS_DATA } from "./Sbdata";
 import MatchCard from "./Matchcard";
 
 const UPCOMING_EVENTS_DATA = [

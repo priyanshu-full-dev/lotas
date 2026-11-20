@@ -1,6 +1,6 @@
 import { memo } from "react";
 import { FaStar } from "react-icons/fa";
-import { SPORTS } from "./sbData";
+import { SPORTS } from "./Sbdata";
 
 const SBSportTabs = memo(({ activeSport, onSportChange, activeView, onViewChange }) => (
     <div
